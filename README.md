@@ -17,7 +17,7 @@ Arducam.
 need an outlet that supports Tasmota (or can be turned on/off via a URL or
 command issued from Octoprint). Pause is accomplished by turning the printer
 off and back on (resume) and exploits Bambu's ability to do power outage
-recovery. You should test this. 
+recovery. You will still need to go into bambu handy and do a resume onve power is restored. 
 3) Obico account that supports streaming. 
 4) The .gcode files in the gcode directory. You can also make your own gcode
 files using the attached script. These files need to be uploaded to your
@@ -25,8 +25,7 @@ Obico-files location within the Obico App (or website).
 5) A supported messaging app (via Octoslack). I use Pushover. 
 
 # Setup
-1) Install Octoprint and plugins (Obico, OctoSlack, Virtual Printer,
-PrintTimeGenius).  
+1) Install Octoprint and plugins (Obico, OctoSlack, Virtual Printer).  
 2) Make sure Webcam works. 
 3) Enable Virtual Printer plugin and create a dummy printer; change the port to
 Virtual
