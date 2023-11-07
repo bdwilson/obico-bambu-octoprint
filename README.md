@@ -3,7 +3,9 @@
 This document & associated files describe a process to allow use of Obico
 failure detection to work with any non-Octprint/non-Klipper printer (i.e. your
 Bambu printers). Please continue reading for
-the requirements to make this work.
+the requirements to make this work. I am using an [Arducam
+USB](https://amzn.to/40smRYU) camera with [this
+mount](https://makerworld.com/en/models/59194) on my Bambu A1 Mini.  
 
 
 # Requirements
@@ -37,7 +39,9 @@ Virtual
    * Contents should mimic the examples in this repo, but you should replace the IP address with the IP address of your outlet. 
 6) Generate or use the pre-generated g-code files from the repository and
 upload them to the Obico App or website.
-7) Mount your camera somewhere where it can do valid spagetti detection. 
+7) Mount your camera somewhere where it can do valid spagetti detection. If you
+have a Bambu A1 Mini, I created a camera mount for it
+[here](https://makerworld.com/en/models/59194). 
 
 # Usage
 1) Start the print on your Bambu
