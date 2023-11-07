@@ -28,5 +28,4 @@ for ($j=1;$j<=$secs;$j++) {
 		print "M117 INDICATOR-Layer" . $count . "\n";
 	}
 }
-print "; BEGIN DISPLAYLAYERPROGRESS SETTINGS\n;DisplayLayerProgress_layerIndicatorProcessed = true\n ;END DISPLAYLAYERPROGRESS SETTINGS\n";
-		
+print ";BEGIN DISPLAYLAYERPROGRESS SETTINGS\n;DisplayLayerProgress_layerIndicatorProcessed = true\n;END DISPLAYLAYERPROGRESS SETTINGS\n";
