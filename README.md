@@ -1,13 +1,14 @@
 # obico-bambu-octoprint
 
 This document & associated files describe a process to allow use of Obico
-failure detection to work with your Bambu printers. Please continue reading for
+failure detection to work with any non-Octprint/non-Klipper printer (i.e. your
+Bambu printers). Please continue reading for
 the requirements to make this work.
 
 
 # Requirements
 1) Working Octoprint installation with Obico plugin. You need a camera that is
-designed to work with Octoprint natively (i.e. running on a Pi or other
+designed to work with Octoprint (and Obico) natively (i.e. running on a Pi or other
 hardware - not virtualized). For my use case, I'm using a USB-connected
 Arducam. 
 2) If you want the ability to "pause" the printer if there are issues, then you
@@ -39,4 +40,16 @@ upload them to the Obico App or website.
 7) Mount your camera somewhere where it can do valid spagetti detection. 
 
 # Usage
+1) Start the print on your Bambu
+2) Start associated gcode via Obico app which is close as possible to how long
+your print will take. 
+3) ... Profit.
 
+If you enable detection, and your printer pauses, it should trigger the power
+to turn off on your printer.  You will have to fix the issue then hit resume
+and it *should* come back. 
+
+<img src="https://bdwilson.github.io/images/IMG_4911.jpeg" width=400px>
+
+# Credits
+* Thanks to Pr0Pain on the Obico Discord for the idea and initial g-codes.
