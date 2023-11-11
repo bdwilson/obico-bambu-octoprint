@@ -33,8 +33,9 @@ Virtual
    * Enable Snapshot hosting
    * Enable Print Paused (if you have a tasmota outlet); enable System Command and put <pre>sh /home/pi/scripts/tasmota_off_bambu.sh</pre>. You will need to create this file using info below.
    * Enable Print Resumed (if you have a tasmota outlet); enable System Command and put <pre>sh /home/pi/scripts/tasmota_on_bambu.sh</pre>. You will need to create this file using info below.
+   * Enable Print Cancelling; enable System Command and put <pre>sh /home/pi/scripts/restart_octoprint.sh</pre>. You will need to create this file using the info below. This restarts octoprint if you cancel your print.  Cancelling takes forever and restarting octoprint is the best option I've found to get it cancelled quickly :(
    * Enable Progress and setup whatever progress % you prefer.
-5) Create the on and off scripts if you have a tasmota plug. 
+5) Create the on, off, and restart scripts if you have a tasmota plug. 
    * Contents should mimic the examples in this repo, but you should replace the IP address with the IP address of your outlet. 
 6) Generate or use the pre-generated g-code files from the repository and
 upload them to the Obico App or website.
