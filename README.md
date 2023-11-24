@@ -60,5 +60,17 @@ and it *should* come back.
 
 <img src="https://bdwilson.github.io/images/IMG_4911.jpeg" width=400px>
 
+# Known Issues
+* If you get Serial Timeout errors, you may have to edit this file on your Pi:
+<code>/home/pi/oprint/lib/python3.9/site-packages/octoprint/plugins/virtual_printer/virtual.py</code>
+and change the following lines. 
+<code>
+         read_timeout=150.0,
+        write_timeout=150.0,
+</code>
+You will also have to do this upon each Octoprint update unless the issue gets
+fixed. (tracked here: [Octoprint issue 4907](https://github.com/OctoPrint/OctoPrint/issues/4907)
+
+
 # Credits
 * Thanks to Pr0Pain on the Obico Discord for the idea and initial g-codes.
