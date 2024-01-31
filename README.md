@@ -14,9 +14,11 @@ designed to work with Octoprint (and Obico) natively (i.e. running on a Pi or ot
 hardware - not virtualized). For my use case, I'm using a USB-connected Arducam.
 2) SSH to your pi and install [bambu-connect](https://github.com/mattcar15/bambu-connect) python
 module on your Pi. <pre>pip install bambu-connect</pre>
-3) Grab my script <pre>wget
-https://raw.githubusercontent.com/bdwilson/obico-bambu-octoprint/main/bambuCmds.py;
-chmod 755 bambuCmds.py</pre>
+3) Grab my script <pre>
+cd ~/
+wget https://raw.githubusercontent.com/bdwilson/obico-bambu-octoprint/main/bambuCmds.py
+chmod 755 bambuCmds.py
+</pre>
 <b>You will also need to know the IP address of your Bambu printer, Serial #
 and Device Access Code</b> to use this script. In the examples below that call
 bambuCmds.py, you will need to substitute your IP, Serial and access code. 
