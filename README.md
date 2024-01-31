@@ -33,8 +33,8 @@ Virtual
    * Enable Snapshot hosting
    * Enable Print Started; enable System Command and put <pre>/home/pi/bambuCmds.py -i 192.168.1.XX -s 0309CA392XXXXX -a 34235435 -c light_off</pre> (optional - I prefer the IR lighting on the Arducamand the light from the Bambu seems to wash this out).
    * Enable Print Paused; enable System Command and put <pre>/home/pi/bambuCmds.py -i 192.168.1.XX -s 0309CA392XXXXX -a 34235435 -c pause</pre>
-   * Enable Print Resumed; enable System Command and put <pre>/home/pi/bambuCmds.py -i 192.168.1.XX -s 0309CA392XXXXX -a 34235435 -c resume</pre>.
-   * Enable Print Cancelling (only need to do this if your cancelled prints don't immediately cancel); enable System Command and put <pre>/home/pi/bambuCmds.py -i 192.168.1.XX -s 0309CA392XXXXX -a 34235435 -c stop && sudo service octoprint restart</pre>. This restarts octoprint if you cancel your print.  In my initial testing, cancelling took forever and restarting octoprint was the best option I've found to get it cancelled quickly. It seems OK now without this setting using the latest gcodes. 
+   * Enable Print Resumed; enable System Command and put <pre>/home/pi/bambuCmds.py -i 192.168.1.XX -s 0309CA392XXXXX -a 34235435 -c resume</pre>
+   * Enable Print Cancelling (only need to do this if your cancelled prints don't immediately cancel); enable System Command and put <pre>/home/pi/bambuCmds.py -i 192.168.1.XX -s 0309CA392XXXXX -a 34235435 -c stop && sudo service octoprint restart</pre>This restarts octoprint if you cancel your print.  In my initial testing, cancelling took forever and restarting octoprint was the best option I've found to get it cancelled quickly. It seems OK now without this setting using the latest gcodes. 
    * Enable Progress and setup whatever progress % you prefer.
 5) Generate or use the pre-generated g-code files from the repository and
 upload them to the Obico App or website.
