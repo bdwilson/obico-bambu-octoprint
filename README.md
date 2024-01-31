@@ -19,9 +19,7 @@ cd ~/
 wget https://raw.githubusercontent.com/bdwilson/obico-bambu-octoprint/main/bambuCmds.py
 chmod 755 bambuCmds.py
 </pre>
-<b>You will also need to know the IP address of your Bambu printer, Serial #
-and Device Access Code</b> to use this script. In the examples below that call
-bambuCmds.py, you will need to substitute your IP, Serial and access code. 
+<b>You will also need to know the IP address of your Bambu printer, Serial # and Device Access Code</b> to use this script. In the examples below that call bambuCmds.py, you will need to substitute your IP, Serial and access code.  
 4) Obico account that supports streaming (you may be able to use the self-hosted option; I have not tried this). 
 5) The .gcode files in the gcode directory. You can also make your own gcode
 files using the attached script. These files need to be uploaded to your
