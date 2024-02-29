@@ -3,10 +3,17 @@
 This document & associated files describe a process to allow use of Obico
 failure detection to work with any non-Octprint/non-Klipper printer (i.e. your
 Bambu printers). Please continue reading for
-the requirements to make this work. I am using an [Arducam
-USB](https://amzn.to/40smRYU) camera with [this
-mount](https://makerworld.com/en/models/59194) on my Bambu A1 Mini.  
+the requirements to make this work. I am using an [Arducam USB](https://amzn.to/40smRYU) camera with [this mount](https://makerworld.com/en/models/59194) on my Bambu A1 Mini.  
 
+
+**NOTE**: This process has pretty much been replaced by
+https://github.com/jneilliii/OctoPrint-BambuPrinter/. Just install via Plugin
+Manager
+<code>https://github.com/jneilliii/OctoPrint-BambuPrinter/archive/master.zip</code>
+and configure your Bambu printer in settings.  No need to do any of the stuff
+below.  It will also auto-start Obico.  
+
+Keeping the below for posterities sake. 
 
 # Requirements
 1) Working Octoprint installation with Obico plugin. You need a camera that is
