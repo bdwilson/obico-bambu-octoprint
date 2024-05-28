@@ -15,7 +15,7 @@ below.  It will also auto-start Obico. <i>Want to get rid of Octoprint? Keep rea
 
 <b>OR</b>
 
-If you want to get rid of the Octoprint requirement, you can go directly to [OctoEverywhere](https://octoeverywhere.com/bambu?ref=YUI4F6).  This still requires a system to run the Bambu connector, but opens up the opportunity to leverage an RTSP camera or Pi/USB camera, or will leverage existing camera on the device (which isn't great for P1S/A1 users).  
+If you want to get rid of the Octoprint requirement, you can go directly to [OctoEverywhere](https://octoeverywhere.com/bambu?ref=YUI4F6).  This still requires a system to run the Bambu connector, but opens up the opportunity to leverage an RTSP camera or Pi/USB camera, or will leverage existing camera on the device (which isn't great for P1S/A1 users).  <b>Note: this is the option I am now using now and I am very happy with detection capabilities).</b>
 
 I did a comparison between Obico and OctoEverywhere and [posted it on reddit/r/bambu](https://www.reddit.com/r/BambuLab/comments/1cq8pqe/spaghetti_detection_obico_vs_octoeverywhere/) if you're interested in the differences. 
 
